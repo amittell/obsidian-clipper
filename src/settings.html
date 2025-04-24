@@ -17,7 +17,7 @@
 						<li data-section="properties" data-i18n="properties">Properties</li>
 						<li data-section="highlighter" data-i18n="highlighter">Highlighter</li>
 						<li data-section="reader" data-i18n="reader" style="display: none;">Reader</li>
-						<li data-section="interpreter" data-i18n="interpreter">Interpreter</li>
+						<!-- Interpreter feature has been removed -->
 						<li class="sidebar-heading" data-i18n="templatesHeading">Templates</li>
 					</ul>
 					<button type="button" id="new-template-btn" class="mod-cta" data-i18n="newTemplate">New&nbsp;template</button>
@@ -289,77 +289,7 @@
 						</form>
 					</div>
 
-					<div id="interpreter-section" class="settings-section">
-						<div class="settings-section-header">
-							<h2 data-i18n="interpreter">Interpreter</h2>
-						</div>
-						<form id="interpreter-settings-form">
-							<div class="setting-item-group">
-								<div class="setting-item mod-horizontal">
-									<div class="setting-item-info">
-										<label for="interpreter-toggle" data-i18n="enableInterpreter">Enable interpreter</label>
-										<div class="setting-item-description" data-i18n="enableInterpreterDescription">
-											Use natural language to extract data from pages. For example, you can use the template syntax <strong>{{"a summary of the page"}}</strong>. Requires an API key or custom model configured below. <a href="https://help.obsidian.md/web-clipper/interpreter" target="_blank">Learn more</a>.
-										</div>
-									</div>
-									<div class="setting-item-control">
-										<div class="checkbox-container">
-											<input type="checkbox" id="interpreter-toggle" />
-										</div>
-									</div>
-								</div>
-							</div>
-							<div>
-								<h3 data-i18n="behavior">Behavior</h3>
-								<div class="setting-item mod-horizontal">
-									<div class="setting-item-info">
-										<label for="interpreter-auto-run-toggle" data-i18n="autoRunInterpreter">Automatically run</label>
-										<div class="setting-item-description" data-i18n="autoRunInterpreterDescription">Run prompt variables immediately if the template contains any. This will consume API credits with your model provider. Turn off if you only want to run interpreter manually.</div>
-									</div>
-									<div class="setting-item-control">
-										<div class="checkbox-container">
-											<input type="checkbox" id="interpreter-auto-run-toggle" />
-										</div>
-									</div>
-								</div>
-							</div>
-							<div>
-								<h3 data-i18n="providers">Providers</h3>
-								<div id="api-keys-warning-container" class="warning-container" style="margin-bottom: 0.5rem;">
-									<div class="warning-icon">
-										<i data-lucide="alert-triangle"></i>
-									</div>
-									<div class="warning-text" data-i18n="apiKeysWarning">
-										By using an external provider you agree to their terms and privacy policy. Interpreter requests are sent directly to the provider you choose. Obsidian does not gather or store any data about your requests.
-									</div>
-								</div>
-								<div class="provider-list-container">
-									<div id="provider-list"></div>
-									<div class="add-btn">
-										<a id="add-provider-btn" data-i18n="addProvider">+ Add provider</a>
-									</div>
-								</div>
-							</div>
-							<div>
-								<h3 data-i18n="models">Models</h3>
-								<div class="model-list-container">
-									<div id="model-list"></div>
-									<div class="add-btn">
-										<a id="add-model-btn" data-i18n="addModel">+ Add model</a>
-									</div>
-								</div>
-							</div>
-							<div>
-								<h3 data-i18n="advanced">Advanced</h3>
-								<div class="setting-item">
-									<label for="default-prompt-context" style="font-weight: 400;" data-i18n="defaultInterpreterContext">Default interpreter context</label>
-									<div class="setting-item-description" data-i18n="defaultInterpreterContextDescription">Override the context used to interpret prompt variables. Variables can be used here.</div>
-									<textarea id="default-prompt-context" rows="4" placeholder="{{fullHtml}}" spellcheck="false"></textarea>
-								</div>
-								
-							</div>
-						</form>
-					</div>
+					<!-- Interpreter feature has been removed -->
 
 					<div id="properties-section" class="settings-section">
 						<div class="settings-section-header">

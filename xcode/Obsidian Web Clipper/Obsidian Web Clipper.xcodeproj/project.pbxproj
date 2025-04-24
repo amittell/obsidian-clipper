@@ -104,9 +104,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7A15D46F2CB5D97B00BC4F99 /* highlighter.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = highlighter.css; path = "/Users/kepano/Documents/Git/obsidian-clipper/dist_safari/highlighter.css"; sourceTree = "<absolute>"; };
-		7A6480582D820A9800A5924D /* reader.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = reader.css; path = "/Users/kepano/Documents/Git/obsidian-clipper/dist_safari/reader.css"; sourceTree = "<absolute>"; };
-		7A6535C82D8B530300DDF54C /* reader-script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "reader-script.js"; path = "/Users/kepano/Documents/Git/obsidian-clipper/dist_safari/reader-script.js"; sourceTree = "<absolute>"; };
+		7A15D46F2CB5D97B00BC4F99 /* highlighter.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = highlighter.css; path = "/Users/alexm/stripe/dev/obsidian-clipper/dist_safari/highlighter.css"; sourceTree = "<absolute>"; };
+		7A6480582D820A9800A5924D /* reader.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = reader.css; path = "/Users/alexm/stripe/dev/obsidian-clipper/dist_safari/reader.css"; sourceTree = "<absolute>"; };
+		7A6535C82D8B530300DDF54C /* reader-script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "reader-script.js"; path = "/Users/alexm/stripe/dev/obsidian-clipper/dist_safari/reader-script.js"; sourceTree = "<absolute>"; };
 		7AEF056F2CA0F50D005FFBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		7AEF05702CA0F50D005FFBC2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		7AEF05712CA0F50D005FFBC2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -130,10 +130,10 @@
 		7AEF05A42CA0F50D005FFBC2 /* Obsidian Web Clipper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Obsidian Web Clipper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEF05A92CA0F50D005FFBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AEF05AA2CA0F50D005FFBC2 /* Obsidian Web Clipper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Obsidian Web Clipper.entitlements"; sourceTree = "<group>"; };
-		7AEF05CA2CA0F50D005FFBC2 /* settings.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = settings.js.LICENSE.txt; path = ../../../dist_safari/settings.js.LICENSE.txt; sourceTree = "<group>"; };
+		7AEF05CA2CA0F50D005FFBC2 /* settings.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = settings.js.LICENSE.txt; path = "/Users/alexm/stripe/dev/obsidian-clipper/dist_safari/settings.js.LICENSE.txt"; sourceTree = "<absolute>"; };
 		7AEF05CB2CA0F50D005FFBC2 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../dist_safari/background.js; sourceTree = "<group>"; };
 		7AEF05CC2CA0F50D005FFBC2 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../../dist_safari/popup.js; sourceTree = "<group>"; };
-		7AEF05CE2CA0F50D005FFBC2 /* popup.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = popup.js.LICENSE.txt; path = ../../../dist_safari/popup.js.LICENSE.txt; sourceTree = "<group>"; };
+		7AEF05CE2CA0F50D005FFBC2 /* popup.js.LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = popup.js.LICENSE.txt; path = "/Users/alexm/stripe/dev/obsidian-clipper/dist_safari/popup.js.LICENSE.txt"; sourceTree = "<absolute>"; };
 		7AEF05CF2CA0F50D005FFBC2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../../dist_safari/popup.html; sourceTree = "<group>"; };
 		7AEF05D02CA0F50D005FFBC2 /* browser-polyfill.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "browser-polyfill.min.js"; path = "../../../dist_safari/browser-polyfill.min.js"; sourceTree = "<group>"; };
 		7AEF05D32CA0F50D005FFBC2 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../../dist_safari/icons; sourceTree = "<group>"; };
@@ -695,7 +695,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 35;
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Obsidian Web Clipper Extension";
@@ -711,7 +711,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe.Extension";
 				PRODUCT_NAME = "Obsidian Web Clipper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -726,7 +726,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 35;
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Obsidian Web Clipper Extension";
@@ -742,7 +742,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe.Extension";
 				PRODUCT_NAME = "Obsidian Web Clipper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -761,7 +761,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 35;
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Obsidian Web Clipper";
@@ -783,7 +783,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe";
 				PRODUCT_NAME = "Obsidian Web Clipper";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -800,7 +800,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 35;
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Obsidian Web Clipper";
@@ -822,7 +822,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe";
 				PRODUCT_NAME = "Obsidian Web Clipper";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -841,7 +841,7 @@
 				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "Shared\\ (App)/Assets.xcassets";
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -858,7 +858,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe.Extension";
 				PRODUCT_NAME = "Obsidian Web Clipper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -876,7 +876,7 @@
 				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "Shared\\ (App)/Assets.xcassets";
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -893,7 +893,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe.Extension";
 				PRODUCT_NAME = "Obsidian Web Clipper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -913,7 +913,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -933,7 +933,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe";
 				PRODUCT_NAME = "Obsidian Web Clipper";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -952,7 +952,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 35;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 6JSW4SJWN9;
+				DEVELOPMENT_TEAM = MZ8BFF7Y25;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -972,7 +972,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper";
+				PRODUCT_BUNDLE_IDENTIFIER = "md.obsidian.Obsidian-Web-Clipper-Stripe";
 				PRODUCT_NAME = "Obsidian Web Clipper";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;

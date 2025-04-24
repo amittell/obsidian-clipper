@@ -1,10 +1,11 @@
 {
 	"manifest_version": 3,
 	"default_locale": "en",
-	"name": "Obsidian Web Clipper",
+	"name": "Obsidian Web Clipper (Stripe)",
 	"homepage_url": "https://obsidian.md/",
-	"version": "0.11.7",
-	"description": "Save and highlight web pages in a private and durable format that you can access offline. The official extension for Obsidian.",
+	"version": "0.11.7.1",
+	"description": "Save and highlight web pages in a private and durable format that you can access offline. Stripe version with interpreter removed.",
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAinGYsLYEqXZyktiDtP0RjjSXLlJ+Xaj9yHhcfMRG1xwU9A40bGywUCWPnqYcWqYxGdCk4eNmOcI8jIW+yJMUKHcGSLPQehXGUjzQVUGbOjBzMeWAfeWAU8GRRlmR1HpPGIeIjX3QjCjUWz47B9kC5RzD8b/EvRIxkHJtCsHmQ4JZU1jACmQYM7UdL+mGoFBCMTwZQrZtZeZMJICxVMvIfMOv9jgdKhldOCZV6TtNlHaUzR2WXrvHdIp0TNQwNjv1ZBvXHF6I2lDrYcizVZYYCF18F2IUvAU+yFQSLXBVmcXWZXCdl+l7E0A9TZHCTzgH7qfIcEEnEHCJDWBs6QIDAQAB",
 	"permissions": [
 		"activeTab",
 		"clipboardWrite",

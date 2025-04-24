@@ -94,6 +94,7 @@ export async function loadSettings(): Promise<Settings> {
 	const data = await browser.storage.sync.get(null) as StorageData;
 	
 	// Load default settings first
+	// Default settings with interpreter feature disabled
 	const defaultSettings: Settings = {
 		vaults: [],
 		showMoreActionsButton: false,
@@ -144,12 +145,13 @@ export async function loadSettings(): Promise<Settings> {
 		highlighterEnabled: data.highlighter_settings?.highlighterEnabled ?? defaultSettings.highlighterEnabled,
 		alwaysShowHighlights: data.highlighter_settings?.alwaysShowHighlights ?? defaultSettings.alwaysShowHighlights,
 		highlightBehavior: data.highlighter_settings?.highlightBehavior ?? defaultSettings.highlightBehavior,
-		interpreterModel: data.interpreter_settings?.interpreterModel || defaultSettings.interpreterModel,
-		models: data.interpreter_settings?.models || defaultSettings.models,
-		providers: data.interpreter_settings?.providers || defaultSettings.providers,
-		interpreterEnabled: data.interpreter_settings?.interpreterEnabled ?? defaultSettings.interpreterEnabled,
-		interpreterAutoRun: data.interpreter_settings?.interpreterAutoRun ?? defaultSettings.interpreterAutoRun,
-		defaultPromptContext: data.interpreter_settings?.defaultPromptContext || defaultSettings.defaultPromptContext,
+		// Interpreter settings are always set to safe defaults regardless of stored values
+		interpreterModel: '', // Always empty string
+		models: [], // Always empty array
+		providers: [], // Always empty array
+		interpreterEnabled: false, // Always false to disable interpreter
+		interpreterAutoRun: false, // Always disabled
+		defaultPromptContext: '', // Always empty string
 		propertyTypes: data.property_types || defaultSettings.propertyTypes,
 		readerSettings: {
 			fontSize: data.reader_settings?.fontSize ?? defaultSettings.readerSettings.fontSize,
@@ -188,13 +190,14 @@ export async function saveSettings(settings?: Partial<Settings>): Promise<void> 
 			alwaysShowHighlights: generalSettings.alwaysShowHighlights,
 			highlightBehavior: generalSettings.highlightBehavior
 		},
+		// Interpreter settings are no longer stored
 		interpreter_settings: {
-			interpreterModel: generalSettings.interpreterModel,
-			models: generalSettings.models,
-			providers: generalSettings.providers,
-			interpreterEnabled: generalSettings.interpreterEnabled,
-			interpreterAutoRun: generalSettings.interpreterAutoRun,
-			defaultPromptContext: generalSettings.defaultPromptContext
+			interpreterModel: '',
+			models: [],
+			providers: [],
+			interpreterEnabled: false,
+			interpreterAutoRun: false,
+			defaultPromptContext: ''
 		},
 		property_types: generalSettings.propertyTypes,
 		reader_settings: {
